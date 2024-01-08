@@ -1,0 +1,163 @@
+﻿namespace list.örnek_1
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.btnSirala = new System.Windows.Forms.Button();
+            this.btnKucuktenBuyuge = new System.Windows.Forms.Button();
+            this.btnBuyuktenKucuge = new System.Windows.Forms.Button();
+            this.btnGecenler = new System.Windows.Forms.Button();
+            this.btn100Alanlar = new System.Windows.Forms.Button();
+            this.btnKalanlar = new System.Windows.Forms.Button();
+            this.btnBelgeAlanlar = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // listBox1
+            // 
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(12, 13);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(173, 424);
+            this.listBox1.TabIndex = 0;
+            // 
+            // btnSirala
+            // 
+            this.btnSirala.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnSirala.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSirala.Location = new System.Drawing.Point(207, 33);
+            this.btnSirala.Name = "btnSirala";
+            this.btnSirala.Size = new System.Drawing.Size(128, 43);
+            this.btnSirala.TabIndex = 1;
+            this.btnSirala.Text = "Sırala";
+            this.btnSirala.UseVisualStyleBackColor = false;
+            // 
+            // btnKucuktenBuyuge
+            // 
+            this.btnKucuktenBuyuge.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnKucuktenBuyuge.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKucuktenBuyuge.Location = new System.Drawing.Point(207, 82);
+            this.btnKucuktenBuyuge.Name = "btnKucuktenBuyuge";
+            this.btnKucuktenBuyuge.Size = new System.Drawing.Size(128, 41);
+            this.btnKucuktenBuyuge.TabIndex = 2;
+            this.btnKucuktenBuyuge.Text = "K-B Sırala";
+            this.btnKucuktenBuyuge.UseVisualStyleBackColor = false;
+            this.btnKucuktenBuyuge.Click += new System.EventHandler(this.btnKucuktenBuyuge_Click);
+            // 
+            // btnBuyuktenKucuge
+            // 
+            this.btnBuyuktenKucuge.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnBuyuktenKucuge.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnBuyuktenKucuge.Location = new System.Drawing.Point(207, 270);
+            this.btnBuyuktenKucuge.Name = "btnBuyuktenKucuge";
+            this.btnBuyuktenKucuge.Size = new System.Drawing.Size(128, 37);
+            this.btnBuyuktenKucuge.TabIndex = 3;
+            this.btnBuyuktenKucuge.Text = "B-K Sırala";
+            this.btnBuyuktenKucuge.UseVisualStyleBackColor = false;
+            this.btnBuyuktenKucuge.Click += new System.EventHandler(this.btnBuyuktenKucuge_Click);
+            // 
+            // btnGecenler
+            // 
+            this.btnGecenler.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnGecenler.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGecenler.Location = new System.Drawing.Point(207, 129);
+            this.btnGecenler.Name = "btnGecenler";
+            this.btnGecenler.Size = new System.Drawing.Size(128, 42);
+            this.btnGecenler.TabIndex = 4;
+            this.btnGecenler.Text = "Geçenler";
+            this.btnGecenler.UseVisualStyleBackColor = false;
+            // 
+            // btn100Alanlar
+            // 
+            this.btn100Alanlar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn100Alanlar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn100Alanlar.Location = new System.Drawing.Point(207, 224);
+            this.btn100Alanlar.Name = "btn100Alanlar";
+            this.btn100Alanlar.Size = new System.Drawing.Size(128, 40);
+            this.btn100Alanlar.TabIndex = 5;
+            this.btn100Alanlar.Text = "100 Alan";
+            this.btn100Alanlar.UseVisualStyleBackColor = false;
+            // 
+            // btnKalanlar
+            // 
+            this.btnKalanlar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnKalanlar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKalanlar.Location = new System.Drawing.Point(207, 177);
+            this.btnKalanlar.Name = "btnKalanlar";
+            this.btnKalanlar.Size = new System.Drawing.Size(128, 41);
+            this.btnKalanlar.TabIndex = 6;
+            this.btnKalanlar.Text = "Kalanlar";
+            this.btnKalanlar.UseVisualStyleBackColor = false;
+            // 
+            // btnBelgeAlanlar
+            // 
+            this.btnBelgeAlanlar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnBelgeAlanlar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnBelgeAlanlar.Location = new System.Drawing.Point(207, 313);
+            this.btnBelgeAlanlar.Name = "btnBelgeAlanlar";
+            this.btnBelgeAlanlar.Size = new System.Drawing.Size(128, 63);
+            this.btnBelgeAlanlar.TabIndex = 7;
+            this.btnBelgeAlanlar.Text = "Belge Alanlar";
+            this.btnBelgeAlanlar.UseVisualStyleBackColor = false;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBelgeAlanlar);
+            this.Controls.Add(this.btnKalanlar);
+            this.Controls.Add(this.btn100Alanlar);
+            this.Controls.Add(this.btnGecenler);
+            this.Controls.Add(this.btnBuyuktenKucuge);
+            this.Controls.Add(this.btnKucuktenBuyuge);
+            this.Controls.Add(this.btnSirala);
+            this.Controls.Add(this.listBox1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button btnSirala;
+        private System.Windows.Forms.Button btnKucuktenBuyuge;
+        private System.Windows.Forms.Button btnBuyuktenKucuge;
+        private System.Windows.Forms.Button btnGecenler;
+        private System.Windows.Forms.Button btn100Alanlar;
+        private System.Windows.Forms.Button btnKalanlar;
+        private System.Windows.Forms.Button btnBelgeAlanlar;
+    }
+}
+
